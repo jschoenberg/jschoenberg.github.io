@@ -26,6 +26,9 @@
                     <a href="{{ '/daily/' | relative_url }}">Daily</a>
                     <a href="{{ '/wall/' | relative_url }}">The Wall</a>
                     <a href="{{ '/ramblings/' | relative_url }}">Ramblings</a>
+                    <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+                        <span class="theme-icon" aria-hidden="true">&#9788;</span>
+                    </button>
                 </nav>
             </header>
             <main>{{ content }}</main>
@@ -35,5 +38,6 @@
                 ><span>{{ "now" | date: "%Y" }}</span>
             </footer>
         </div>
+        <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
     </body>
 </html>
