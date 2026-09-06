@@ -1,5 +1,5 @@
-title: "Josh's corner of the internet"
-description: "Daily notes, useful things, and occasional ramblings."
+title: "Jeremiah's Show(nberg)"
+description: "Daily notes, ideas, and occasional ramblings."
 url: "https://jschoenberg.github.io"
 baseurl: ""
 
@@ -25,10 +25,10 @@ defaults:
       layout: "post"
       section: "Ramblings"
   - scope:
-      path: "board.md"
+      path: "wall.md"
     values:
       layout: "page"
-      section: "The Board"
+      section: "The Wall"
 
 markdown: kramdown
 timezone: America/Chicago
