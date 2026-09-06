@@ -2,7 +2,7 @@
 layout: page
 title: The Wall
 section: 02 / Curated
-permalink: /board/
+permalink: /wall/
 ---
 <p class="page-intro">When they say "throw shit at the wall and see what sticks", this is what they are referring to. Typically these are ideas that I have/had and just want to note should I come back to them</p>
 <div class="wall-list">
