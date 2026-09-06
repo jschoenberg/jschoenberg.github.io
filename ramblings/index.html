@@ -1,0 +1,11 @@
+---
+layout: page
+title: Ramblings
+section: 03 / The longer version
+permalink: /ramblings/
+---
+<p class="page-intro">Longer thoughts, half-formed theories, and the occasional attempt to connect a few dots.</p>
+<div class="archive-list">
+  {% assign ramblings = site.ramblings | sort: "date" | reverse %}
+  {% for post in ramblings %}<a class="archive-item" href="{{ post.url | relative_url }}"><span class="archive-date">{{ post.date | date: "%b %-d, %Y" }}</span><span class="archive-title">{{ post.title }}</span><span class="archive-arrow">&rarr;</span></a>{% endfor %}
+</div>

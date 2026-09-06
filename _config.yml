@@ -1,0 +1,34 @@
+title: "Josh's corner of the internet"
+description: "Daily notes, useful things, and occasional ramblings."
+url: "https://jschoenberg.github.io"
+baseurl: ""
+
+collections:
+  daily:
+    output: true
+    permalink: /daily/:year/:month/:day/:title/
+  ramblings:
+    output: true
+    permalink: /ramblings/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "daily"
+    values:
+      layout: "post"
+      section: "Daily"
+  - scope:
+      path: ""
+      type: "ramblings"
+    values:
+      layout: "post"
+      section: "Ramblings"
+  - scope:
+      path: "board.md"
+    values:
+      layout: "page"
+      section: "The Board"
+
+markdown: kramdown
+timezone: America/Chicago
