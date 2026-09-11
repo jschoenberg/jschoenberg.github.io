@@ -91,8 +91,9 @@ so I can understand what happens under the abstraction, both so I can
 appreciate the abstraction, and go around it if needed. I doubt I'll need
 to, but who knows
 
-2. Re-implement blink using the MCU and PRU on the PocketBeagle 2. I 
-anticipate this being quite interesting and annoying to get working.
+2. Re-implement blink using the MCU and PRU on the PocketBeagle 2, as well
+as with `libgpiod`. I anticipate this being quite interesting and annoying 
+to get working.
 
 3. Get around the led_strip abstraction, and try to use the 
 GPIO directly. If it requires some weird stuff like how the Pico uses
