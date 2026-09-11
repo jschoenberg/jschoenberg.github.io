@@ -40,7 +40,7 @@ will continue to change how thr workforce and humanity operates. Some run, some 
 some pretend like it never even happened. It will be interesting to see how things 
 continue to change and adapt, how the economy handles everything, etc. I won't lie and 
 say that I am terribly optimistic as to how they next couple years will play out, but
-I will do my best to adapt and take on whatever comes down the pipe. All that being said,
+I will do my best to adapt and take on whatever comes down the pipe. All that being said:
 
-If we want to keep our jobs, we have to create value and leverage the things that we have
+If we want to keep our jobs, we have to create value (blech) and leverage the things that we have
 that LLMs don't. Physical form, and being an actual human.
