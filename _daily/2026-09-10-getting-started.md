@@ -52,24 +52,24 @@ Well in those hours I've,
 
 1. Done the tutorial on the Pi
 2. Redid it on the ESP32
-  1. Originally did it with just GPIO in similar vein
-  2. Spent a good bit figuring out that issue and using the led_strip
+    1. Originally did it with just GPIO in similar vein
+    2. Spent a good bit figuring out that issue and using the led_strip
   library
 3. Redid it on the STM32
-  1. Configured using the [stm32-cmake](https://github.com/ObKo/stm32-cmake.git) build system
-  2. Did not define SysTick_Handler cause I forgot
-  3. Used GDB to debug the firmware
-  4. Saw it was stuck at the HardFault (and others) address
-  5. Did some debugging and searching with some AI help
-  6. Found that Handler wasn't defined (and the linker pointed that function
-  to that address, which is how it ended up there)
-  7. Defined the handler and everything worked
+    1. Configured using the [stm32-cmake](https://github.com/ObKo/stm32-cmake.git) build system
+    2. Did not define SysTick_Handler cause I forgot
+    3. Used GDB to debug the firmware
+    4. Saw it was stuck at the HardFault (and others) address
+    5. Did some debugging and searching with some AI help
+    6. Found that Handler wasn't defined (and the linker pointed that function
+    to that address, which is how it ended up there)
+    7. Defined the handler and everything worked
 4. Redid it on the PocketBeagle 2 (Linux)
-  1. Found the correct GPIO pins after navigating the datasheet and
+    1. Found the correct GPIO pins after navigating the datasheet and
   sysfs like a stranger in a foreign land
-  2. Sending input on the GPIO pins said device busy (makes sense since they
+    2. Sending input on the GPIO pins said device busy (makes sense since they
   are used by the board to communicate status)
-  3. Decided to interact with the `/leds/*/brightness` file instead
+    3. Decided to interact with the `/leds/*/brightness` file instead
     since that was working
 
 Sure, this could've taken like 2, 3 hours max if I just used AI for it 
